@@ -1,0 +1,42 @@
+
+.olcusuz-box{
+ border:15px solid red;
+ background-color:orange;
+ margin:20px 85px;
+ padding:50px;
+ font-size:2rem;
+ text-align:center;
+ box-sizing:border-box;
+}
+.olcusuz-content{
+  border:15px solid red;
+ background-color:yellow;
+ margin:20px 85px;
+ padding:50px;
+font-size:2rem;
+ text-align:center;
+}
+/* box-sizing:border-box komutu width height verince işe yarar */
+.box{
+ border:15px solid red;
+ background-color:lightgreen;
+ margin:20px 85px;
+ padding:50px;
+ font-size:2rem;
+ text-align:center;
+ box-sizing:border-box;
+
+ width:300px;
+ height:300px;
+}
+.content{
+  border:15px solid red;
+ background-color:lightgray;
+ margin:20px 85px;
+ padding:50px;
+font-size:2rem;
+ text-align:center;
+
+ width:300px;
+ height:300px;
+}

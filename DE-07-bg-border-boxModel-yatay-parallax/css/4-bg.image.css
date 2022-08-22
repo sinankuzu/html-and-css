@@ -1,0 +1,27 @@
+*{
+    text-align: center;
+    color: cyan;
+    margin: 0;
+}
+
+.bg{
+
+background-image: url(../img/monalisa.jpeg);
+height: 20rem;
+background-repeat: no-repeat;
+background-size: cover;
+background-size: contain;
+background-position: center;
+}
+
+span{
+    background-color: gray;
+    width: 4rem;
+    height: 1rem;
+    display: inline-block;
+    margin: 1rem;
+}
+
+span:hover{
+    background-color: lightgray;
+}

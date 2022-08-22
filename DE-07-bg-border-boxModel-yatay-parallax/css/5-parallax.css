@@ -1,0 +1,15 @@
+.bg {
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.image1 {
+  background-image: url(../img/monalisa.jpeg);
+}
+
+.image2 {
+  background-image: url(https://cdn.pixabay.com/photo/2022/07/15/20/13/strawberries-7323943__480.jpg);
+}

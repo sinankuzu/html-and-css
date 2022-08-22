@@ -1,0 +1,60 @@
+.container{
+    margin: 1rem;
+}
+
+.msg{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.msg1{
+    border: 3px solid red
+}
+
+.msg2{
+    border: 3px dashed blue;
+}
+
+.msg3{
+    border-right: 3px dotted red;
+    border-left: 3px solid blue;
+}
+
+.msg4{
+    border: 4px inset red;
+}
+
+.msg5{
+    border: 5px dotted blue;
+    background-color: red;
+
+    border-radius: 5px 0 0 0;
+    padding: 1rem;
+}
+
+.msg6{
+
+    border: 15px groove salmon;
+    background-color: hsl(127,47%,67%);
+    outline: 2px solid cyan;
+    outline-offset: 10px;
+}
+
+.msg7{
+    border: 15px ridge salmon;
+    border-radius: 30%;
+}
+
+.msg8{
+    border: 3px solid gray;
+    border-radius: 50%;
+    background-color: orange;
+    padding: 2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.seffaf{
+    background-image: url("../img/monalisa.jpeg");
+    border: 7px solid rgba(255,0,0,0.2);
+}

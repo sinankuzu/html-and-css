@@ -1,0 +1,53 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("../assets/winter1.jpg");
+}
+
+h1 {
+  color: rgba(32, 78, 42, 0.663);
+  color: hsl(325, 85%, 58%);
+  /* hue:renk tonu, saturation:rengin yogunlugu belirginligi
+    lightness:hafiflik isik */
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration: overline;
+
+  text-decoration-style: dashed;
+  text-decoration-style: dotted;
+  text-decoration-style: double;
+  text-decoration-style: wavy;
+  text-decoration-color: green;
+
+  text-decoration: blue underline overline wavy 8px;
+  /* text-transform: uppercase; */
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
+
+  text-align: center;
+
+  word-spacing: 15px;
+  letter-spacing: 15px;
+}
+
+p {
+  text-indent: 20px;
+  /* satir basi bosluk */
+  line-height: 30px;
+}
+
+li {
+  background-color: lightgreen;
+}
+
+.tatli {
+  list-style-position: inside;
+  list-style-type: "🧡";
+  /* list-style-type: square; */
+
+  list-style-image: url(../assets/img/arrow-right-long-solid.svg);
+}
+
+h3 {
+  /* text-align: end; */
+  direction: rtl;
+}
