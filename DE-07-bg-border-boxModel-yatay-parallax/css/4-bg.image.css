@@ -7,7 +7,7 @@
 .bg{
 
 background-image: url(../img/monalisa.jpeg);
-height: 20rem;
+height: 30rem;
 background-repeat: no-repeat;
 background-size: cover;
 background-size: contain;
@@ -19,6 +19,7 @@ span{
     width: 4rem;
     height: 1rem;
     display: inline-block;
+    border: 1px solid gray;
     margin: 1rem;
 }
 
