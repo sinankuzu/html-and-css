@@ -1,0 +1,93 @@
+
+.container1 div{
+    background-color: tomato;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+}
+
+.container1{
+    background-color: antiquewhite;
+    display: flex;
+    /* flex-direction: column; */
+    /* default olarak row olur. istersek asagiya dogru hcolumn ile hizalayabiliriz */
+    flex-wrap: wrap;
+       /* browser kuculdukce ekrana sigamayam elemntler alt astira gecsin */ 
+    justify-content: space-evenly;
+    }
+
+.container2 div{
+    background-color: cornflowerblue;
+    width: 5rem;
+    height: 10rem;
+    margin:1rem;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    background-color: pink;
+    height: 20rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items:baseline;
+}
+
+.container2 div:nth-child(1){
+    height: 5rem;
+}
+
+.container2 div:nth-child(2){
+    height: 7rem;
+    padding-top:4rem ;
+}
+
+.container2 div:nth-child(3){
+    height: 2rem;
+    padding:0.5rem;
+}
+
+
+ /*! Yatay Hizalama: Justify-center
+  /**  /** flex-start: Nesneler kapsayıcının başından başlayarak dizilirler.*/
+  /**space-around: Nesneler arasında eşit boşluklar bırakılır.
+  /**space-between: İlk nesne başta, son nesne sonda olacak şekilde nesneler eşit olarak kapsayıcının içerisinde dizilirler.
+  /**center: Nesneler tam ortalı olacak şekilde hizalanır.
+  /**flex-end: Son nesne ve diğerleri en sağa yaslanacak şekilde hizalanır. */
+
+/*! Dikey Hizalama => align-items
+  /**flex-start: Nesneler, kapsayıcının en üstünden başlayarak dizilirler.
+/**flex-end: Nesneler, kapsayıcının en altından başlayarak, yukarı doğru dizilirler.
+/**center: Nesneler ortalı bir şekilde dikey olarak sıralanırlar.
+/**baseline: yazıların yerine bakılır, sıradanlığı bozan yazı tipi göz önüne alınarak hizalanmaya başlanılır.
+/**stretch: Tüm nesneler kapsayıcı yüksekliğine eşit olacak şekilde dizilirler. **/
+
+ul li{
+    background-color: violet;
+    width: 4rem;
+    height: 5rem;
+    display: flex;
+    justify-content:center ;
+}
+
+ul{
+    background-color: darkgray;
+    list-style-type: none;
+    height: 30rem;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    /*! Dikey Hizalama => align-items
+  /**flex-start: Nesneler, kapsayıcının en üstünden başlayarak dizilirler.
+/**flex-end: Nesneler, kapsayıcının en altından başlayarak, yukarı doğru dizilirler.
+/**center: Nesneler ortalı bir şekilde dikey olarak sıralanırlar.
+/**baseline: yazıların yerine bakılır, sıradanlığı bozan yazı tipi göz önüne alınarak hizalanmaya başlanılır.
+/**stretch: Tüm nesneler kapsayıcı yüksekliğine eşit olacak şekilde dizilirler. **/
+
+    gap: 4rem 1rem;
+    
+}
+

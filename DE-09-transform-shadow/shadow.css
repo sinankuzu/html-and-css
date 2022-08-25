@@ -1,0 +1,52 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text{
+    font-size: 2rem;
+    padding:1rem;
+    letter-spacing: 1rem;
+}
+
+.text1{
+color: red;
+text-shadow:4px 5px 5px gray;
+/* sag asagi dogru bulanik golge */
+}
+
+.text2{
+    background-color: cadetblue;
+    text-shadow: -4px -5px 3px red;
+    /* sola yukari bulanik */
+}
+
+.text3{
+background-color: #222222;
+color:white;
+text-shadow: 6px 2px 3px rgba(255, 255, 255, 0.8);
+}
+
+.text4{
+color: rgb(51,51,51);
+text-shadow:10px 8px 0 purple, -10px -8px 0 red ;
+}
+
+.text5{
+background-color: #fff3cd;
+text-shadow: 0px 3px 0 black, 0 10px 1px purple, 0 15px 2px rgba(0, 0, 0, 0.5)
+}
+
+.text6 {
+  background-color: #639653;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 8px 2px rgba(0, 0, 0, 0.2),
+    0px -5px 35px red;
+    
+}
+
+.text7 {
+  background-color: #6cfafc;
+  color: #ffffff;
+  text-shadow: 5px 5px 0px rgb(95, 226, 228), 10px 10px 0px rgb(86, 200, 201),
+    20px 20px 0px rgb(86, 200, 201);
+}
