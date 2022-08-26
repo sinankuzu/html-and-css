@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: 150px 300px 250px;
+    grid-template-rows: 100px 500px 100px;
+}
+
+.parca{
+    border: 1px solid red;
+    background-color: thistle;
+    text-align: center;
+
+}
+
+.parca4{
+    overflow: auto;
+}
+
+.parca1{
+    background-image: url(../assets/winter2.webp);
+    background-size: cover;
+}

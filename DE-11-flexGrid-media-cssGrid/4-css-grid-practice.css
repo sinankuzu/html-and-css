@@ -1,0 +1,47 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4, 15vh) 15vh 15vh;
+    
+}
+
+.parca{
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.parca1{
+    grid-column-start:1;
+    grid-column-end:3 ;
+    background-color: pink;
+}
+
+.parca4{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: orange;
+}
+
+.parca6{
+    /* grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start:3;
+    grid-column-end:5 ; */
+    background-color: rgb(189, 15, 189);
+    grid-area: 2 / 3 /span 2/span 2;
+    /* satir baslangic > sutun baslangic /span >satirda kac parca> /span >sutunda kac parca */
+    background-image: url(../assets/winter2.webp);
+    background-size: cover;
+}
+
+.parca9{
+    background-color: aqua;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column: 2;
+    /* grid-area:4 / 2 /span 2 ; */
+}
+
