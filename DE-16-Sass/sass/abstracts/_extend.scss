@@ -1,0 +1,17 @@
+.articles{
+    display: flex;
+    .article1{
+        width: 50%;
+        height: 200px;
+        background-color:$primaryColor ;
+        border: $border;
+        margin-left:5px;
+    }
+
+    .article2{
+        @extend .article1;
+        background-color: $secondaryColor;
+        margin-left: 10px;
+        
+    }
+}

@@ -1,1 +1,62 @@
 @import "./components/header";
+@import "./abstracts/variables";
+@import "./components/banner";
+@import "./base/reset";
+@import "./abstracts/mixin";
+@import "./abstracts/extend";
+
+
+.cards{
+    display: flex;
+  .card1{
+    @include box(brown, white)
+  }
+
+  .card2{
+    @include box(rgb(100,100,100), yellow)
+  }
+
+  .card3{
+    @include box(rgb(19,75,130), gray)
+  }
+
+  .card4{
+    @include box(rgb(10,101,57), black)
+  }
+}
+
+
+$mode:2;
+
+footer{
+    p{
+        @if $mode==2{
+            background-color: lightcoral; 
+        }
+
+        @else if $mode==1{
+            background-color:cornflowerblue;
+        }
+
+        @else{
+            background-color: lightgreen;
+        }
+    }
+}
+
+
+.socialBoxes{
+    display: flex;
+    @for $i from 1 through 5{
+        .social#{$i}{
+            width: 20%;
+            height: 100px;
+            $renk:($i+10)*5;
+            // background-color: rgb($renk, $renk, $renk);
+            background-color: lighten(rgb(138,19,75),$i*10);
+            font-size:$i* 1rem;
+        }
+    }
+}
+
+@each $i, $renk

@@ -1,0 +1,28 @@
+@import "../abstracts/variables";
+
+.banner {
+  display: flex;
+  background-color: $secondaryColor;
+  align-items: center;
+  h2 {
+    font-size: $headerFontSize;
+  }
+
+  p {
+    font-size: $contentFontSize;
+  }
+  .left {
+    margin: 10px;
+
+    button {
+      padding: 10px;
+      border: 1px solid $primaryColor;
+      border-radius: 10px;
+    }
+  }
+
+  img {
+    width: 30%;
+    border: $border;
+  }
+}
